@@ -1,1 +1,1 @@
-https://damnd2.github.io/
+https://damnd2.github.io/HighTech-test/

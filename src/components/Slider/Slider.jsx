@@ -2,6 +2,7 @@
 /* eslint-disable react/no-array-index-key */
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+
 import './Slider.scss';
 import image1 from './slider-1.png';
 import image2 from './slider-2.png';

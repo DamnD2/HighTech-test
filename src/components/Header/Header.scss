@@ -23,6 +23,7 @@
 
 .header__weather{
 	position: relative;
+	margin-right: 100px;
 	&::after{
 		content: url('./weather.svg');
 		position: absolute;

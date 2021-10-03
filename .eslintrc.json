@@ -42,6 +42,7 @@
       "no-else-return": "warn",
       "prefer-const": "warn",
       "no-use-before-define": "off",
+      "linebreak-style": ["error", "windows"],
       "object-curly-newline": [
         "error",
         {

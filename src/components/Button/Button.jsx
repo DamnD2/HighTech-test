@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import './Button.scss';
 import administration from './administration.svg';
 import defaultIcon from './default-icon.svg';

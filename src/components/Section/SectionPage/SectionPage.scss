@@ -1,0 +1,50 @@
+.section-page{
+	position: relative;
+	min-height: 1129px;
+	padding: 15px 55px;
+	background-image: url('../main-section-background.png');
+
+	&__title{
+		font-family: 'Open Sans';
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 35px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #2C2C33;
+		padding: 0 57px;
+		margin-bottom: 30px;
+	}
+
+	&__back{
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		width: 62px;
+		cursor: pointer;
+		transition: all .3s linear;
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+
+	&__home{
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		width: 40px;
+		cursor: pointer;
+		transition: all .3s linear;
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+
+	&__text{
+		padding: 0 43px;
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: 0.02em;
+		color: #2C2C33;
+	}
+}

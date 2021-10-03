@@ -1,0 +1,27 @@
+.button{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	padding: 60px 20px 45px 20px;
+	background-color: #fff;
+	box-shadow: 2px 11px 16px rgba(100, 105, 108, 0.24);
+	border-radius: 45px;
+	cursor: pointer;
+
+	&__title{
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: right;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #2B2E2D;
+	}
+
+	&__image{
+		position: absolute;
+		bottom: 35px;
+		left: 25px;
+		user-select: none;
+	}
+}

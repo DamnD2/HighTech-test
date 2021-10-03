@@ -1,0 +1,54 @@
+.footer{
+	background-color: #009DE9;
+	color: #fff;
+	padding: 12px 124px 10px 124px;
+	font-family: 'Montserrat';
+	letter-spacing: 0.02em;
+
+	&__info{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 18px;
+	
+		&-item{
+			margin-right: 45px;
+			&:last-child{
+				margin-right: 0;
+				max-width: 281px;
+				width: 100%;
+			}
+			&:first-child{
+				text-align: right;
+			}
+		}
+	
+		&-logo{
+			width: 150px;
+			padding: 0;
+		}
+	}
+
+	&__author{
+		text-align: center;
+		font-size: 14px;
+		line-height: 17px;
+		font-weight: 600;
+		display: flex;
+		justify-content: center;
+	
+		&-item{
+			margin-right: 19px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	
+		&-logo{
+			width: 75px;
+		}
+	}
+}

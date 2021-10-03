@@ -1,0 +1,12 @@
+.main{
+	min-height: 1129px;
+	background-image: url(./background.png);
+	padding: 60px 55px;
+
+	&-wrapper{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 35px;
+	}
+}
+

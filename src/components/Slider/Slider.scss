@@ -1,0 +1,45 @@
+.slider{
+	position: relative;
+	height: 608px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
+
+	&-item{
+		width: 1080px;
+		background-position: center;
+		background-size: cover;
+		flex-shrink: 0;
+		transition: .8s all ease-in-out;
+	}
+
+	&:hover .slider__button{
+		background: rgba(0, 0, 0, 0.35);
+	}
+	&__button{
+		width: 71px;
+		height: 71px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all .3s ease-in-out;
+		cursor: pointer;
+	}
+
+	&__prev{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 20px;
+	}
+	
+	&__next{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 20px;
+	}
+
+	
+}

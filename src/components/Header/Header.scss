@@ -1,0 +1,39 @@
+.header{
+	padding: 18px 60px 14px 60px;
+	background: #009DE9;
+	color: #fff;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 41px;
+	letter-spacing: 0.02em;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__wrapper{
+	display: flex;
+}
+
+.header__time, .header__weather{
+	margin-right: 53px;
+}
+
+.header__weather{
+	position: relative;
+	&::after{
+		content: url('./weather.svg');
+		position: absolute;
+		width: 28px;
+		height: 28px;
+		top: -6px;
+		right: -39px;
+	}
+}
+
+.header__date{
+	width: 480px;
+	text-align: right;
+}
